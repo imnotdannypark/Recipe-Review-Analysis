@@ -21,3 +21,7 @@ Analyze unstructured recipe reviews to extract quality metrics and satisfaction 
 ## Key Finding
 * Identification of specific feedback clusters, including ease of cooking and recipe reliability
 * Visualization of review data to identify user sentiment and feedback patterns.
+
+<img width="600" height="474" alt="Screenshot 2026-02-06 at 10 44 38 AM" src="https://github.com/user-attachments/assets/2458bcdd-9475-46d7-a471-0b7d999426ec" />
+
+3D UMAP visualization of sentence embeddings to capture semantic themes. By applying non-linear dimensionality reduction to high-demensional KeyBERT embeddings, the model identifies subtle clusters drien by semantic content rather than just word frequency.
