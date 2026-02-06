@@ -1,14 +1,19 @@
 # Recipe Review Analysis: Topic Modeling & Keyword Extraction
 
+## Group Project
+* Project Type: CS 6140 Data Mining Group Project
+* Team Members: Danny Park, Christina Le, Tinh Nguyen
+* My Specific Contributions: Implemented web scraper, Data Cleaning, K-grams, PCA, and UMAP
+
 ## Project Goal
 Analyze unstructured recipe reviews to extract quality metrics and satisfaction drivers that are not captured by star ratings.
 
 ## Data & Tech
 * Data Source: Allrecipes.com (approximately 6,000 user reviews)
 * Programming: Python
-* Libraries: Pandas, NLTK, Skearn-learn, Sentence_transformers, KeyBERT
+* Libraries: Pandas, NLTK, Scikit-learn, Sentence_transformers, KeyBERT
 
-## Methodolgy
+## Methodology
 * Keyword Extraction: Identification of key terms using KeyBERT and TF-IDF.
 * Dimensionality Reduction: Noise reduction and visualization using PCA and UMAP.
 * Topic Modeling: Classification of user feedback into latent topics using LDA.
